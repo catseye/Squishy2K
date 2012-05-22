@@ -1,0 +1,10 @@
+* main
+{
+  "NOT(" few ")"? rewrite(1)! main
+}
+
+* rewrite
+{
+  "0"? "1"!
+  "1"? "0"!
+}

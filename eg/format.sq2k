@@ -1,0 +1,6 @@
+* main
+{
+  start many "[" few "]"? 1 " open bracket " 2 " close bracket "! main
+  start many "(" few ")"? 1 " open paren " 2 " close paren "! main
+  start many "{" few "}"? 1 " open brace " 2 " close brace "! main
+}
